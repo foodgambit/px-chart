@@ -1,6 +1,6 @@
 {
   "name": "px-toggle-design",
-  "version": "0.2.10",
+  "version": "0.2.11",
   "authors": [
     "General Electric"
   ],
@@ -13,7 +13,7 @@
   ],
   "license": "Apache 2",
   "homepage": "https://github.com/PredixDev/px-toggle-design.git",
-  "private": true,
+  "private": false,
   "ignore": [
     "**/.*",
     "node_modules",
@@ -32,11 +32,11 @@
     "px-iconography-design": "https://github.com/PredixDev/px-iconography-design.git#~0.2.0",
     "px-starter-kit-design": "https://github.com/PredixDev/px-starter-kit-design.git#~0.4.0"
   },
-  "_release": "0.2.10",
+  "_release": "0.2.11",
   "_resolution": {
     "type": "version",
-    "tag": "v0.2.10",
-    "commit": "69f7868ae174ecf4322a22b843e91af4e5cb013e"
+    "tag": "v0.2.11",
+    "commit": "0136231d927003c726c70b2a13dc03c388179629"
   },
   "_source": "https://github.com/PredixDev/px-toggle-design.git",
   "_target": "~0.2.0",
