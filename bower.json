@@ -1,6 +1,6 @@
 {
   "name": "px-chart",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "main": [
     "px-chart.html"
   ],
@@ -31,10 +31,5 @@
     "px-toggle-design": "https://github.com/PredixDev/px-toggle-design.git#~0.2.0",
     "px-forms-design": "https://github.com/PredixDev/px-forms-design.git#~0.3.0",
     "web-component-tester": "~3.3.14"
-  },
-  "resolutions": {
-    "px-theme": "~0.7.0",
-    "px-rangepicker": "~v0.3.0",
-    "polymer": "~1.4.0"
   }
 }
