@@ -1,6 +1,6 @@
 {
   "name": "px-rangepicker",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "main": [
     "px-rangepicker.html"
   ],
@@ -27,11 +27,11 @@
     "px-tables-design": "https://github.com/PredixDev/px-tables-design.git#~0.3.0"
   },
   "homepage": "https://github.com/PredixDev/px-rangepicker",
-  "_release": "0.3.2",
+  "_release": "0.3.3",
   "_resolution": {
     "type": "version",
-    "tag": "v0.3.2",
-    "commit": "cec02afbda3d4d6d6501deaf3290a5c769800dba"
+    "tag": "v0.3.3",
+    "commit": "8e358e371e40ceb99bbab3a20879f84dbf30fa42"
   },
   "_source": "https://github.com/PredixDev/px-rangepicker.git",
   "_target": "~v0.3.0",
