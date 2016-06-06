@@ -1,6 +1,6 @@
 {
   "name": "px-demo-data",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "authors": [
     "GE"
   ],
@@ -15,11 +15,11 @@
     "tests"
   ],
   "homepage": "https://github.com/PredixDev/px-demo-data",
-  "_release": "0.0.6",
+  "_release": "0.0.8",
   "_resolution": {
     "type": "version",
-    "tag": "v0.0.6",
-    "commit": "e6b0a761cfc92ba30437121392a88fc3de5547ea"
+    "tag": "v0.0.8",
+    "commit": "9be56bc37b8c34bd246b2fabdfb064aa1458cea5"
   },
   "_source": "https://github.com/PredixDev/px-demo-data.git",
   "_target": "~v0.0.1",
