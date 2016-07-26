@@ -1,4 +1,12 @@
-v0.4.1
+v0.4.4
+==================
+* Fixed css bug with error icon
+
+v0.4.3
+==================
+* Keep local copy of moment.js
+
+v0.4.2
 ==================
 * added polymer behavior declaration
 

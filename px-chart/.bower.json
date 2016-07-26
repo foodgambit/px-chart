@@ -1,6 +1,6 @@
 {
   "name": "px-chart",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "main": [
     "px-chart.html"
   ],
@@ -37,11 +37,11 @@
     "moment": "~2.13.0"
   },
   "homepage": "https://github.com/PredixDev/px-chart",
-  "_release": "1.6.1",
+  "_release": "1.6.2",
   "_resolution": {
     "type": "version",
-    "tag": "v1.6.1",
-    "commit": "79adc3c7e4e9eb6e5a1c4562d6c3592f0605657a"
+    "tag": "v1.6.2",
+    "commit": "b31479853bd3a6134c83b96a4eec9e84216a3baa"
   },
   "_source": "https://github.com/PredixDev/px-chart.git",
   "_target": "^1.5.2",
