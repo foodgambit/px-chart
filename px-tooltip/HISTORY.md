@@ -1,3 +1,15 @@
+v0.7.6
+=================
+* added overflow to demoContainer and removed flex__wrap from mega-demo
+
+v0.7.5
+=================
+* updated mega demo styles and bower px-demo-snippet to ^
+
+v0.7.4
+=================
+* added image to readme, removed watch, added view on github
+
 v0.7.3
 =================
 * updated gh-pages script to vulcanize demo
