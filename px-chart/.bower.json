@@ -1,6 +1,6 @@
 {
   "name": "px-chart",
-  "version": "1.6.5",
+  "version": "1.6.7",
   "main": [
     "px-chart.html"
   ],
@@ -26,7 +26,7 @@
     "d3": "~3.5.6"
   },
   "devDependencies": {
-    "iron-ajax": "PolymerElements/iron-ajax#~v1.1.1",
+    "iron-ajax": "PolymerElements/iron-ajax#^1.1.1",
     "px-demo-data": "~v0.0.1",
     "px-starter-kit-design": "#~0.5.4",
     "px-forms-design": "#~0.3.15",
@@ -47,11 +47,11 @@
     "moment": "~2.13.0"
   },
   "homepage": "https://github.com/PredixDev/px-chart",
-  "_release": "1.6.5",
+  "_release": "1.6.7",
   "_resolution": {
     "type": "version",
-    "tag": "v1.6.5",
-    "commit": "b93ebfd09227bffd7d26d8b3f485414739cb0db1"
+    "tag": "v1.6.7",
+    "commit": "3bf262a0431948ff01da9fb10c99f8709265a95e"
   },
   "_source": "https://github.com/PredixDev/px-chart.git",
   "_target": "^1.5.2",
