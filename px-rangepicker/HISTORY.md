@@ -1,3 +1,55 @@
+v1.1.10
+==================
+* added correct event listener to demo event counter
+
+v1.1.9
+==================
+* Fixed demo event counter
+
+v1.1.8
+==================
+* added overflow to demoContainer and removed flex__wrap from mega-demo
+
+v1.1.7
+==================
+* updated mega demo styles and bower px-demo-snippet to ^
+
+v1.1.6
+==================
+* added image to readme, removed watch, added view on github
+
+v1.1.5
+==================
+* Added vulcanize
+
+v1.1.4
+==================
+* Updated component description in demo
+
+v1.1.3
+==================
+* Fixed footer
+
+v1.1.2
+==================
+* Fixed bower links and added demo footer
+
+v1.1.1
+==================
+* Updated to new demo page
+
+v1.1.0
+==================
+* Added blockPastDates
+
+v1.0.2
+==================
+* Use local copy of moment.js
+
+v1.0.0
+==================
+* major rework of the component to use multiple sub components
+
 v0.4.0
 ==================
 * Upgrade to Polymer 1.5.0

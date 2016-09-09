@@ -1,3 +1,35 @@
+v0.5.7
+==================
+* Prevent range being changed when already being processed internally
+
+v0.5.6
+==================
+* Fix timezone typo
+
+v0.5.5
+==================
+* Fixed issue in validating future/past dates after UTC changed date
+
+v0.5.4
+==================
+* Fixed shared behavior to use Px.moment instead of moment
+
+v0.5.3
+==================
+* Make sure that we don't override moment if loaded already
+
+v0.5.2
+==================
+* Removed bower resolution
+
+v0.5.1
+==================
+* Fixed blockFutureDates blockPastDates validation bug
+
+v0.5.0
+==================
+* Added block past dates
+
 v0.4.4
 ==================
 * Fixed css bug with error icon
