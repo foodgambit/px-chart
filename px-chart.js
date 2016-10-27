@@ -1202,7 +1202,9 @@ Polymer({
 
               var roundedValue = pointsVar[i].y;
               if (!Number.isInteger(roundedValue)) {
-                return parseFloat(roundedValue).toFixed(this.tooltipDataPrecision);
+                // terrible as there may be multiple px-charts on a page
+                var chart = document.querySelector("px-chart");
+                roundedValue = roundedValue.toFixed(chart.tooltipDataPrecision);
               }
               // insert the vale for all cases
               // <b class="um-b- u-p0">{{point.val}}</b>
