@@ -441,6 +441,16 @@ Polymer({
     },
 
     /**
+     * Sets the precision of the tooltip data
+     *
+     * @default 2
+     */
+    tooltipDataPrecision: {
+      type: Number,
+      value: 2
+    },
+
+    /**
      * Mapping of color name to rgb value for use in datavis (axis, navigator, series, etc. colors)
      *
      * Can only be statically configured (not data-bindable).
@@ -1189,10 +1199,15 @@ Polymer({
                 htmlArr.push(pointsVar[i].series.color);
                 htmlArr.push('" class="series-icon"></div>');
               }
+
+              var roundedValue = pointsVar[i].y;
+              if (!Number.isInteger(roundedValue)) {
+                return parseFloat(roundedValue).toFixed(tooltipDataPrecision);
+              }
               // insert the vale for all cases
               // <b class="um-b- u-p0">{{point.val}}</b>
               htmlArr.push('<b class="um-b- u-p0">');
-              htmlArr.push(Math.round(pointsVar[i].y * 100) / 100);
+              htmlArr.push(roundedValue);
               htmlArr.push(' ');
               htmlArr.push(pointsVar[i].series.options.units);
               htmlArr.push('</b>');
