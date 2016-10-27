@@ -1202,7 +1202,7 @@ Polymer({
 
               var roundedValue = pointsVar[i].y;
               if (!Number.isInteger(roundedValue)) {
-                return parseFloat(roundedValue).toFixed(tooltipDataPrecision);
+                return parseFloat(roundedValue).toFixed(this.tooltipDataPrecision);
               }
               // insert the vale for all cases
               // <b class="um-b- u-p0">{{point.val}}</b>
