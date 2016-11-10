@@ -451,6 +451,19 @@ Polymer({
     },
 
     /**
+     * Sets the configuration of the tooltip data
+     *
+     * @default 2
+     */
+    seriesConfig: {
+      type: Object,
+      value: {
+        marker: {},
+        events: this.seriesEvents
+      }
+    },
+
+    /**
      * Mapping of color name to rgb value for use in datavis (axis, navigator, series, etc. colors)
      *
      * Can only be statically configured (not data-bindable).
@@ -1263,6 +1276,15 @@ Polymer({
       }
     };
 
+    var currentSeriesConfig = this.seriesConfig;
+    if (typeof this.seriesConfig === "string") {
+      currentSeriesConfig = JSON.parse(currentSeriesConfig);
+    }
+    if (!currentSeriesConfig.marker && !currentSeriesConfig.events) {
+      currentSeriesConfig.marker = {};
+      currentSeriesConfig.events = this.seriesEvents;
+    }
+
     // return on the whole Polymer definition to run highcharts
     return {
 
@@ -1353,10 +1375,7 @@ Polymer({
           grouping: true,
           groupPadding: 0.2
         },
-        series: {
-          marker: {},
-          events: this.seriesEvents
-        }
+        series: this.seriesConfig
       },
       rangeSelector: {
         enabled: false
