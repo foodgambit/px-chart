@@ -1154,7 +1154,10 @@ Polymer({
               color: "rgb(0,0,0)"
             },
             x: 3,
-            y: 12
+            y: 12,
+            formatter: function() {
+              return this.value;
+            }
           };
       }
     };
